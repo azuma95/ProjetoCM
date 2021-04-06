@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:onClick="CellClickListener"
+    android:background="@color/yellow">
+
+    <TextView
+        android:id="@+id/tituloT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo:"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descricaoT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tituloT"
+        android:layout_alignLeft="@id/tituloT"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_toEndOf="@+id/tituloT"
+        android:layout_toRightOf="@+id/tituloT"
+        android:text="@string/title"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:text="@string/content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewTitle"
+        android:layout_alignLeft="@id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@id/textViewTitle" />
+
+
+</RelativeLayout>

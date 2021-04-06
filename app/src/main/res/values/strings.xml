@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AplicacaoCM</string>
+    <string name="add_nota">Adiciona nota</string>
+    <string name="empty_not_saved">Nota vazia: não inserida</string>
+    <string name="insertnota">Insira Nota</string>
+    <string name="insertdescricao">Insira Descrição</string>
+    <string name="add_note">Add note</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+</resources>
