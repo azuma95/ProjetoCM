@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
-        android:hint="Insere o Conteúdo"
+        android:hint="Inserir a descrição"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
