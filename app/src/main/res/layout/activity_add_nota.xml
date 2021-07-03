@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
-        android:hint="Insere o Título"
+        android:hint="@string/insertTitle"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
-        android:hint="Inserir a descrição"
+        android:hint="@string/insertdescricao"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:backgroundTint="@android:color/holo_blue_dark"
-        android:text="Guardar"
+        android:text="@string/saveNote"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:textColor="@android:color/white" />

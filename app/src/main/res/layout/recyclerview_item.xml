@@ -12,7 +12,7 @@
         android:id="@+id/tituloT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Titulo:"
+        android:text="@string/titleRecicler"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
@@ -20,7 +20,7 @@
         android:id="@+id/descricaoT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descrição:"
+        android:text="@string/descriptionRecicler"
         android:layout_marginTop="20dp"
         android:layout_below="@id/tituloT"
         android:layout_alignLeft="@id/tituloT"

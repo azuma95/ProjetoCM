@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity(), NotaEspecificaListener {
         if (resultCode == Activity.RESULT_OK && data != null && data.action == "REMOVE") {
             var id = Integer.parseInt(data?.getStringExtra(PARAM_ID))
             notaViewModel.deleteById(id)
-            Toast.makeText(this, "Nota eliminada.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.notaEliminada, Toast.LENGTH_SHORT).show()
             return
         }
 
@@ -66,12 +66,9 @@ class MainActivity : AppCompatActivity(), NotaEspecificaListener {
                 var descricao = data?.getStringExtra(AddNota.EXTRA_REPLY_CONTENT).toString()
                 var nota = Nota(titulo = titulo, descricao = descricao)
                 notaViewModel.insert(nota)
-                Toast.makeText(this, "Nota guardada.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.notaGuardada, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(
-                    applicationContext,
-                    "Campo(s) Vazio(s): não inserido.",
-                    Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, R.string.notaNInserida, Toast.LENGTH_LONG).show()
             }
         } else if (requestCode == UpdateNotaActivityRequestCode) {
             if (requestCode == UpdateNotaActivityRequestCode && resultCode == Activity.RESULT_OK) {
@@ -79,9 +76,9 @@ class MainActivity : AppCompatActivity(), NotaEspecificaListener {
                 var descricao = data?.getStringExtra(PARAM2_CONTENT).toString()
                 var id = Integer.parseInt(data?.getStringExtra(PARAM_ID))
                 notaViewModel.updateById(titulo, descricao, id)
-                Toast.makeText(applicationContext, "Nota alterada.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, R.string.notaAlterada, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(applicationContext, "Campo(s) Vazio(s): não alterado.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, R.string.notaNInserida, Toast.LENGTH_SHORT).show()
             }
         }
     }
