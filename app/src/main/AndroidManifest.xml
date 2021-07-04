@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicacaoCM">
-        <activity android:name=".EditaNota"></activity>
+        <activity android:name=".EditaNota" />
         <activity android:name=".AddNota" />
-        <activity android:name=".ListaNota">
+        <activity android:name=".ListaNota"/>
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

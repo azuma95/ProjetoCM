@@ -17,4 +17,9 @@
     <string name="notaGuardada">Note Saved.</string>
     <string name="notaNInserida">Empty field(s): not entered.</string>
     <string name="notaAlterada">Note changed.</string>
+    <string name="nomeLogin">Name</string>
+    <string name="passwordLogin">Password</string>
+    <string name="botaoLogin">Login</string>
+    <string name="botaoNotas">Notes</string>
+    <string name="lembrarPass">Remember the password</string>
 </resources>
