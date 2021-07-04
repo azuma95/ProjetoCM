@@ -59,7 +59,7 @@
         app:backgroundTintMode="screen"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/notas"
         android:layout_width="311dp"
         android:layout_height="52dp"
         android:layout_marginTop="20dp"
@@ -72,14 +72,14 @@
         app:backgroundTintMode="screen"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/logout"
         android:layout_width="311dp"
         android:layout_height="52dp"
         android:text="Encerra Sessão"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/notas"
         app:layout_constraintVertical_bias="0.694"
         android:background="@drawable/roundcorner_4"
         app:backgroundTint="@android:color/transparent"

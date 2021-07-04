@@ -22,4 +22,5 @@
     <string name="botaoLogin">Login</string>
     <string name="botaoNotas">Notes</string>
     <string name="lembrarPass">Remember the password</string>
+    <string name="loginEmptyFields">Empty Fields</string>
 </resources>

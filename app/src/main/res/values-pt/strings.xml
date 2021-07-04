@@ -23,4 +23,5 @@
     <string name="botaoLogin">Entrar</string>
     <string name="botaoNotas">Notas</string>
     <string name="lembrarPass">Lembrar a Palavra-Pass</string>
+    <string name="loginEmptyFields">Campos Vazios</string>
 </resources>
