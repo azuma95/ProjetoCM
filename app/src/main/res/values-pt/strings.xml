@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cidade Inteligente</string>
+    <string name="add_nota">Adiciona nota</string>
+    <string name="empty_not_saved">Nota vazia: não inserida</string>
+    <string name="insertnota">Insira Nota</string>
+    <string name="insertdescricao">Insira Descrição</string>
+    <string name="add_note">Adiciona nota</string>
+    <string name="title">Titulo</string>
+    <string name="content">Conteúdo</string>
+    <string name="saveNote">Guardar</string>
+    <string name="insertTitle">Insere o Título</string>
+    <string name="deleteNote">Apagar</string>
+    <string name="editNote">Editar</string>
+    <string name="titleRecicler">Titulo:</string>
+    <string name="descriptionRecicler">Descrição:</string>
+    <string name="notaEliminada">Nota eliminada.</string>
+    <string name="notaGuardada">Nota guardada.</string>
+    <string name="notaNInserida">Campo(s) Vazio(s): não inserido.</string>
+    <string name="notaAlterada">Nota alterada.</string>
+    <string name="nomeLogin">Nome</string>
+    <string name="passwordLogin">Palavra-Pass</string>
+    <string name="botaoLogin">Entrar</string>
+    <string name="botaoNotas">Notas</string>
+    <string name="lembrarPass">Lembrar a Palavra-Pass</string>
+</resources>

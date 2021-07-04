@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD39B"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Menu"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mapa"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="64dp"
+        android:text="Mapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:background="@drawable/roundcorner"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"/>
+
+    <Button
+        android:id="@+id/lista"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Lista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapa"
+        android:background="@drawable/roundcorner"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"/>
+
+    <Button
+        android:id="@+id/reportar"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Reportar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lista"
+        android:background="@drawable/roundcorner"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Notas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reportar"
+        android:background="@drawable/roundcorner"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:text="Encerra Sessão"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.694"
+        android:background="@drawable/roundcorner_4"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

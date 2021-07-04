@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_nota">Add note</string>
+    <string name="app_name">Smart City</string>
+    <string name="empty_not_saved">Empty note: not entered</string>
+    <string name="insertnota">" Insert Note"</string>
+    <string name="insertdescricao">Insert Description</string>
+    <string name="add_note">Add note</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="saveNote">Save</string>
+    <string name="insertTitle">Insert Title</string>
+    <string name="deleteNote">Delete</string>
+    <string name="editNote">Edit</string>
+    <string name="titleRecicler">Title:</string>
+    <string name="descriptionRecicler">Description:</string>
+    <string name="notaEliminada">Note deleted.</string>
+    <string name="notaGuardada">Note Saved.</string>
+    <string name="notaNInserida">Empty field(s): not entered.</string>
+    <string name="notaAlterada">Note changed.</string>
+    <string name="nomeLogin">Name</string>
+    <string name="passwordLogin">Password</string>
+    <string name="botaoLogin">Login</string>
+    <string name="botaoNotas">Notes</string>
+    <string name="lembrarPass">Remember the password</string>
+</resources>
