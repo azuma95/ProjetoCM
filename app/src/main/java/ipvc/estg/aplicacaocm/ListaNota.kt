@@ -18,7 +18,7 @@ var PARAM_ID = "id"
 var PARAM1_TITLE = "titulo"
 var PARAM2_CONTENT = "descricao"
 
-class MainActivity : AppCompatActivity(), NotaEspecificaListener {
+class ListaNota : AppCompatActivity(), NotaEspecificaListener {
 
     private lateinit var notaViewModel: NotaViewModel
     private val newWordActivityRequestCode = 1
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), NotaEspecificaListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_lista_notas)
 
         //recycler view
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity(), NotaEspecificaListener {
         //Fab
         val fab = findViewById<FloatingActionButton>(R.id.fab)
         fab.setOnClickListener {
-            val intent = Intent(this@MainActivity, AddNota::class.java)
+            val intent = Intent(this@ListaNota, AddNota::class.java)
             startActivityForResult(intent, newWordActivityRequestCode)
         }
 

@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AplicacaoCM">
         <activity android:name=".EditaNota"></activity>
         <activity android:name=".AddNota" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ListaNota">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
