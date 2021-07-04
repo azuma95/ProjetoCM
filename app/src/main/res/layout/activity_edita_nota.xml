@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
-        android:hint="Insere o Título"
+        android:hint="@string/insertTitle"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
-        android:hint="Insere o Conteúdo"
+        android:hint="@string/insertdescricao"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
@@ -35,9 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:text="Editar"
+        android:text="@string/editNote"
         android:textColor="@android:color/white"
-        app:backgroundTint="@android:color/holo_green_dark"/>
+        app:backgroundTint="@android:color/holo_blue_dark"/>
 
     <Button
         android:id="@+id/button_remove"
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:text="Remover"
+        android:text="@string/deleteNote"
         android:textColor="@android:color/white"
-        app:backgroundTint="@android:color/holo_red_light" />
+        app:backgroundTint="@android:color/holo_red_dark" />
 
 </LinearLayout>
