@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Smart City</string>
     <string name="add_nota">Add note</string>
+    <string name="app_name">Smart City</string>
     <string name="empty_not_saved">Empty note: not entered</string>
     <string name="insertnota">" Insert Note"</string>
     <string name="insertdescricao">Insert Description</string>
