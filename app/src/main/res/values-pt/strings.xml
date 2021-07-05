@@ -16,7 +16,7 @@
     <string name="descriptionRecicler">Descrição:</string>
     <string name="notaEliminada">Nota eliminada.</string>
     <string name="notaGuardada">Nota guardada.</string>
-    <string name="notaNInserida">Campo(s) Vazio(s): não inserido.</string>
+    <string name="notaNInserida">Campo(s) Vazio(s)</string>
     <string name="notaAlterada">Nota alterada.</string>
     <string name="nomeLogin">Nome</string>
     <string name="passwordLogin">Palavra-Pass</string>
@@ -24,4 +24,5 @@
     <string name="botaoNotas">Notas</string>
     <string name="lembrarPass">Lembrar a Palavra-Pass</string>
     <string name="loginEmptyFields">Campos Vazios</string>
+    <string name="title_activity_maps">Mapa</string>
 </resources>

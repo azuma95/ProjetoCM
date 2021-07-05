@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="10dp"
     android:onClick="CellClickListener"
-    android:background="@color/yellow">
+    android:background="#777672">
 
     <TextView
         android:id="@+id/tituloT"
