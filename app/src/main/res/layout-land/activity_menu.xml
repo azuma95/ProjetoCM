@@ -5,70 +5,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DAD39B"
+    android:orientation="horizontal"
     tools:context=".Menu">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="32dp"
         android:text="Menu"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/mapa"
-        android:layout_width="311dp"
+        android:layout_width="289dp"
         android:layout_height="52dp"
-        android:layout_marginTop="64dp"
-        android:text="Mapa"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginTop="20dp"
         android:background="@drawable/roundcorner"
+        android:text="Mapa"
         app:backgroundTint="@android:color/transparent"
-        app:backgroundTintMode="screen"/>
+        app:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/reportar"
-        android:layout_width="311dp"
+        android:layout_width="289dp"
         android:layout_height="52dp"
         android:layout_marginTop="20dp"
-        android:text="Reportar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapa"
         android:background="@drawable/roundcorner"
+        android:text="Reportar"
         app:backgroundTint="@android:color/transparent"
-        app:backgroundTintMode="screen"/>
+        app:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/notas"
-        android:layout_width="311dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="20dp"
-        android:text="Notas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reportar"
+        android:layout_width="625dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="84dp"
         android:background="@drawable/roundcorner"
+        android:text="Notas"
         app:backgroundTint="@android:color/transparent"
-        app:backgroundTintMode="screen"/>
+        app:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/logout"
-        android:layout_width="311dp"
-        android:layout_height="52dp"
+        android:layout_width="625dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundcorner_4"
         android:text="Encerra Sessão"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notas"
-        app:layout_constraintVertical_bias="0.694"
-        android:background="@drawable/roundcorner_4"
-        app:backgroundTint="@android:color/transparent"
-        app:backgroundTintMode="screen"/>
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

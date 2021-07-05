@@ -15,7 +15,7 @@
     <string name="descriptionRecicler">Description:</string>
     <string name="notaEliminada">Note deleted.</string>
     <string name="notaGuardada">Note Saved.</string>
-    <string name="notaNInserida">Empty field(s): not entered.</string>
+    <string name="notaNInserida">Empty field(s)</string>
     <string name="notaAlterada">Note changed.</string>
     <string name="nomeLogin">Name</string>
     <string name="passwordLogin">Password</string>

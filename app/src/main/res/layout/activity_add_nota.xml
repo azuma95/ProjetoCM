@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="#DAD39B">
 
     <EditText
         android:id="@+id/edit_title"
@@ -13,6 +13,8 @@
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
         android:hint="@string/insertTitle"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
@@ -24,6 +26,8 @@
         android:minHeight="48dp"
         android:fontFamily="sans-serif-light"
         android:hint="@string/insertdescricao"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:inputType="textAutoComplete"
         android:layout_margin="15dp"
         android:textSize="18sp" />
@@ -32,10 +36,12 @@
         android:id="@+id/button_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/saveNote"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:background="@drawable/roundcorner"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="screen"/>
 
 </LinearLayout>
