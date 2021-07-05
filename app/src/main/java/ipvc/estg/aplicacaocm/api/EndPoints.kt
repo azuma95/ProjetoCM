@@ -24,6 +24,12 @@ interface EndPoints {
     @GET("api/ocorrencia/{id}")
     fun getOcorrenciaById(@Path("id") id: Int): Call<Ocorrencia>
 
+    //post
+    @FormUrlEncoded
+    @POST("api/ocorrencia_post")
+    fun postOcorrencia(@Field("descricao") descricao: String, @Field("latitude") latitude: Double?,
+                       @Field("longitude") longitude: Double?, @Field("utilizador_id") utilizador_id: Int?) : Call<OutputOcorrencia>
+
     @GET("api/ocorrenciadescricao")
     fun getOcorrenciaDescricao(): Call<List<Ocorrencia>>
 }
