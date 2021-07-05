@@ -42,5 +42,19 @@ class Menu : AppCompatActivity() {
             startActivity(intent)
         }
 
+        // mapa btn
+        mapa = findViewById(R.id.mapa)
+        mapa.setOnClickListener{
+            val intent = Intent(this@Menu, MapsActivity::class.java)
+            startActivity(intent)
+        }
+
+        //add ocorrencia btn
+        addOcorrencia = findViewById(R.id.reportar)
+        addOcorrencia.setOnClickListener{
+            val intent = Intent(this@Menu, AddOcorrencia::class.java)
+            startActivity(intent)
+        }
+
     }
 }

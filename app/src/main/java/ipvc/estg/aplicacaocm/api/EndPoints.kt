@@ -16,4 +16,14 @@ interface EndPoints {
     @FormUrlEncoded
     @POST("api/login")
     fun login(@Field("nome") nome: String?, @Field("password") password: String?): Call<OutputLogin>
+
+    //Ocorrencia
+    @GET("api/ocorrencia")
+    fun getOcorrencias(): Call<List<Ocorrencia>>
+
+    @GET("api/ocorrencia/{id}")
+    fun getOcorrenciaById(@Path("id") id: Int): Call<Ocorrencia>
+
+    @GET("api/ocorrenciadescricao")
+    fun getOcorrenciaDescricao(): Call<List<Ocorrencia>>
 }

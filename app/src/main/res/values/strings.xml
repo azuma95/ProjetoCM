@@ -23,4 +23,5 @@
     <string name="botaoNotas">Notes</string>
     <string name="lembrarPass">Remember the password</string>
     <string name="loginEmptyFields">Empty Fields</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
