@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="10dp"
     android:onClick="CellClickListener"
-    android:background="#777672">
+    android:background="#77766E">
 
     <TextView
         android:id="@+id/tituloT"
@@ -31,8 +31,8 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginLeft="37dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
         android:layout_toEndOf="@+id/tituloT"
         android:layout_toRightOf="@+id/tituloT"
         android:text="@string/title"

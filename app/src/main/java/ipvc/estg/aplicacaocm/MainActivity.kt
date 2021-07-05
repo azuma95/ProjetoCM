@@ -91,8 +91,11 @@ class MainActivity : AppCompatActivity() {
                             sharedPreferences_edit.putBoolean("remember", checked)
                             sharedPreferences_edit.apply()
 
+                            val welcome = getString(R.string.loginWelcome);
+
                             val intent = Intent(this@MainActivity, Menu::class.java)
                             startActivity(intent)
+                            Toast.makeText(this@MainActivity, welcome + nome, Toast.LENGTH_SHORT).show()
                             finish()
                         }
                     }

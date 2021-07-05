@@ -25,4 +25,9 @@
     <string name="lembrarPass">Remember the password</string>
     <string name="loginEmptyFields">Empty Fields</string>
     <string name="title_activity_maps">Map</string>
+    <string name="loginWelcome">"Welcome, "</string>
+    <string name="ocorrenciaTexto">Text</string>
+    <string name="ocorrenciaCriar">Create Occurrences</string>
+    <string name="report">Report</string>
+    <string name="logout">Logout</string>
 </resources>
